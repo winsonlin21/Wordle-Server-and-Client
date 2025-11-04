@@ -278,7 +278,7 @@ int wordle_server( int argc, char ** argv )
   if (argc != 5)
   {
     fprintf(stderr, "ERROR: Invalid argument(s)\n");
-    fprintf(stderr, "USAGE: hw3.out <listener-port> <seed> <dictionary-filename> <num-words>\n");
+    fprintf(stderr, "USAGE: server.out <listener-port> <seed> <dictionary-filename> <num-words>\n");
 
     return EXIT_FAILURE;
   }
